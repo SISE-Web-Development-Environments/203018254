@@ -1,7 +1,40 @@
-#menu
-{
+
+
+#menu {
 	position: fixed;
+	background-color: blue;
 	width: 100%;
-	height: 35px;
-	background: white;
-}
+	height: 10%;
+	
+  }
+  
+  #menu li {
+	display: inline-block;
+  }
+
+
+  #menu a {
+	color: white;
+	font-size: 130%;
+	text-decoration: none;
+  }
+  
+  h1 {
+	color: blue;
+	font-size: 150%;
+	text-align: center;
+  }
+  
+  #photos img {
+	transition: transform 0.4s; 
+	text-align: center;
+	display: inline-block;
+  }
+  
+  #photos img:hover {
+	transform: scale(1.3);
+  }
+
+
+
+  
