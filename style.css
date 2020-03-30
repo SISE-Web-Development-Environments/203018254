@@ -2,7 +2,7 @@
 
 #menu {
 	position: fixed;
-	background-color: blue;
+	background-color: brown;
 	width: 100%;
 	height: 10%;
 	
@@ -20,7 +20,7 @@
   }
   
   h1 {
-	color: blue;
+	color: brown;
 	font-size: 150%;
 	text-align: center;
   }
@@ -35,7 +35,7 @@
 	transform: scale(1.3);
   }
 
-  li.button:hover {background-color: darkblue;
+  li.button:hover {background-color: red;
   }
   
 

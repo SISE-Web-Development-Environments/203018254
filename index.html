@@ -4,17 +4,26 @@
   <title>
     Shachar Ron Website
   </title>
+  <style>
+    body {
+      background-color: cornsilk;
+      background-repeat: no-repeat;
+       background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 
-<body style="background-color: yellow;">
+<body  >
+  
   <div id="menu"   align="center">
     <ul>
-      <img alt="PICTURE7" src="Pictures/logo.png" width="3%" align="left" />
-    <li class="button"><a href="#about"><b>About Me| </b></a></li>
-    <li class="button"><a href="#photos"><b>My Photos| </b></a></li>
-    <li class="button"><a href="#playlist"><b>My Playlist| </b></a></li>
+      <img alt="PICTURE7" src="Pictures/flag.png" width="3%" align="left"  />
+    <li class="button"><a href="#about"><b>About My Grandmother| </b></a></li>
+    <li class="button"><a href="#photos"><b>My Grandmother Photos| </b></a></li>
+    <li class="button"><a href="#playlist"><b>My Grandmother Playlist| </b></a></li>
     <li class="button"><a href="#like"><b>Like| </b></a></li>
     <li class="button"><a href="#qrcoder"><b>QR code| </b></a></li>
     <li class="button"><a href="#spa"><b>Q&A| </b></a></li>
@@ -27,16 +36,28 @@
     <br />
     <br />
     <br />
-    <h1 >About me</h1>
+    
+    <h1 >About My Grandmother</h1>
     <br />
     <p style="font-size: 150%;">
-      My name is <b>Shachar Ron</b>, I'm 28 years old and originally from Maale
-      Adumim.<br>
-      I am a third year student BSc. Software and Information Systems Engineering at Ben Gurion University.<br>
-      My hobbies are to play basketball and cook.<br>
-      The course I have enjoyed the most so far in the degree is the introductory course to artificial intelligence.<br>
-      In terms of difficulty at work sending the emoji was the more difficult part.<br>
-      The character that has influenced me most over the years is my dad who has had a very significant part in shaping my life and my choices in life
+      <img style="float: right;" alt="PICTURE3" src="Pictures/6.png" width="10%" />
+      <br />
+      <br />
+      <br />
+      
+      My name is <b>Sarah Dahan</b>, I am 87 years old and born in 1933 in the village of Skura, Morocco.
+    <br>
+    I was born as the smallest sister in a family of 6 children.<br>
+    I knew Judah, my husband, at the age of 13. He grew up in the same village where I grew up.<br>
+    We got married after a few weeks and at 15 I already gave birth to my eldest daughter, Sima.<br>
+    
+    I have 7 children, all of whom I gave birth to in Morocco, including Kobi,<br>
+    We did to him "brit mila" in Casablanca just before we boarded the plane,<br>
+    Only Ruth, my little daughter, was born in Israel.<br>
+    We immigrated to Israel in 1964, to Jerusalem. For 25 years I worked at Shaare Zedek Hospital. All the doctors at the hospital today know me and remember me from my time there.<br>
+    My hobbies are to cook, knit and embroider. Now in the Corona period I have closed the club I go to 3 times a week so I mostly do it at home.<br>
+    I am most eagerly waiting for the near future to end the plague and I can go back out to the neighborhood garden in the Kiryat Yuval neighborhood of Jerusalem,
+     to meet all my friends there and also to come back Go to the club I go to.
     </p>
     <br />
     <br />
@@ -48,14 +69,15 @@
     <br />
     <br />
 
-    <h1>My Photos</h1>
+    <h1>My Grandmother Photos</h1>
     <br />
     <br />
-    <img alt="PICTURE1" src="Pictures/5.jpg" width="19%" />
-    <img alt="PICTURE5" src="Pictures/2.jpg" width="19%" />
-    <img alt="PICTURE3" src="Pictures/3.jpg" width="19%" />
-    <img alt="PICTURE6" src="Pictures/4.jpg" width="19%" />
-    <img alt="PICTURE6" src="Pictures/1.jpg" width="19%" />
+    <img alt="PICTURE3" src="Pictures/3.png" width="25%" />
+    <img alt="PICTURE1" src="Pictures/5.png" width="14%" />
+    <img alt="PICTURE5" src="Pictures/2.png" width="14%" />
+   
+    <img alt="PICTURE6" src="Pictures/4.png" width="14%" />
+    <img alt="PICTURE6" src="Pictures/1.png" width="25%" />
 
     <br />
     <br />
@@ -66,14 +88,11 @@
     <br />
     <br />
     <br />
-    <h1>My Playlist</h1>
+    <h1>My Grandmother Playlist</h1>
     <br />
     <br />
     <p align="center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eHkGFKXSSho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <br />
-    </p>
-    <br />
-    <br />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvRQtbqLPK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <br />
   </section>
 
   <section align="center" id="like" class="section">
@@ -184,7 +203,8 @@
   <section id="contact" class="section">
     <br />
     <h1>Contact Me</h1>
-    <form action="mailto:shachab@post.bgu.ac.il" method="post" enctype="text/plain" align="center">
+    <br />
+    <form action="mailto:shachab@post.bgu.ac.il" method="get" name="mailForm" enctype="text/plain" align="center">
       <p>
         <label for="Name"><b>Email:</b></label>
         <input id="Name" name="Name" type="text" size="30" required>
@@ -194,29 +214,25 @@
         <input id="Subject" name="Subject" type="text" size="30" required>
       </p>
       <label for="Text"><b>Message:</b></label>
-      <p>
-        <textarea id="Text" name="Text" rows="10" cols="50" placeholder="Enter your request" required>
-        </textarea>
-
-
+      <p> <textarea id="fbody" name="body" rows="10" cols="50" placeholder="Enter your request..." required></textarea><br />
       </p>
-      <button input type="submit" value="submit" onclick="add()">Submit</button>
-      <select id="emoji" name="emoji">
-        <option> 😀</option>
-        <option>😁</option>
-        <option>😝</option>
-        <option>🤔</option>
-        <option> &#128525</option>
-        <option>😍</option>
-            <option>😎</option>
-            <option>😱</option>
-            <option>😘</option>
-            <option>😡</option>
-    
-        </select>
+      
+      
+        <input type="radio" id="emoji1" name="emoji" value=" &#128512" checked> &#128512
+        <input type="radio" id="emoji2" name="emoji" value="&#128514">&#128514
+        <input type="radio" id="emoji3" name="emoji" value="&#128523">&#128523
+        <input type="radio" id="emoji4" name="emoji" value="&#128525">&#128525
+        <input type="radio" id="emoji5" name="emoji" value="&#128557">&#128557
+        <input type="radio" id="emoji6" name="emoji" value="&#128548">&#128548
+        <input type="radio" id="emoji7" name="emoji" value="&#128545">&#128545
+
+
+        <br><br>
+        <button input type="submit" value="submit" onclick="add()">Submit</button>
+      
     </form>
     <br />
-    <br />
+
 
     <br />
   </section>
@@ -237,15 +253,26 @@ $(function(){
  </script>
 
 <script> 
-  function displayRadioValue() { 
-      var ele = document.getElementsByName('gender'); 
-        
-      for(i = 0; i < ele.length; i++) { 
-          if(ele[i].checked) 
-          document.getElementById("result").innerHTML
-                  = "Gender: "+ele[i].value; 
-      } 
-  } 
+        function getRadioVal() {
+            var ele = document.getElementsByTagName('input');
+            var val = "";
+
+            for (var i = 0; i < ele.length; i++) {
+                if (ele[i].type == "radio") {
+                    if (ele[i].checked) {
+                        val = ele[i].value;
+                        return val;
+                    }
+                }
+            }
+        }
+
+        function add() {
+
+            var val = getRadioVal();
+            document.getElementById('fbody').value += val;
+
+        }
 </script> 
 </body>
 
