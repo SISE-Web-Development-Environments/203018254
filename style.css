@@ -1,4 +1,9 @@
-
+body {
+	background-color: cornsilk;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	background-size: 100% 100%;
+  }
 
 #menu {
 	position: fixed;
@@ -23,6 +28,16 @@
 	color: brown;
 	font-size: 150%;
 	text-align: center;
+  }
+  h3 {
+	color: green;
+	font-size: 150%;
+	text-align: left;
+  }
+
+  label {
+	color: green;
+	text-align: left;
   }
   
   #photos img {
